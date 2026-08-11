@@ -61,18 +61,18 @@ Building AI-powered systems and full-stack applications — from LLM-based agent
 
 ## 📊 GitHub Statistics
 
-![](https://github-readme-stats.vercel.app/api?username=RIZWAN1428&show_icons=true&theme=tokyonight)
+![](https://github-readme-stats.vercel.app/api?username=RIZWAN1428&show_icons=true&theme=tokyonight&hide_border=true)
 
-![](https://github-readme-streak-stats.herokuapp.com/?user=RIZWAN1428&theme=tokyonight)
+![](https://streak-stats.demolab.com/?user=RIZWAN1428&theme=tokyonight&hide_border=true)
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=RIZWAN1428&layout=compact&theme=tokyonight)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=RIZWAN1428&layout=compact&theme=tokyonight&hide_border=true)
 
 ---
 
 ## 🤝 Connect With Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-LINKEDIN-HANDLE)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR-EMAIL@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohd-rizwan-a71981194/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mr659612@gmail.com)
 
 ---
 
