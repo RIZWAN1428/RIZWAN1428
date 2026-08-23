@@ -72,7 +72,7 @@ Building AI-powered systems and full-stack applications — from LLM-based agent
 
 ![](https://github-readme-stats.vercel.app/api?username=RIZWAN1428&show_icons=true&theme=tokyonight&hide_border=true)
 
-![](https://streak-stats.demolab.com/?user=RIZWAN1428&theme=tokyonight&hide_border=true)
+![](./profile/streak.svg)
 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=RIZWAN1428&layout=compact&theme=tokyonight&hide_border=true)
 
