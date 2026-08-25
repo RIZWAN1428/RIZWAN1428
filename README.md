@@ -1,6 +1,6 @@
 # Hi 👋, I'm Mohd Rizwan
 
-### Software Engineer | Applied AI & Full-Stack Developer | Python • Django • Angular • LLM Agents • Computer Vision • AWS
+### Software Engineer | Applied AI & Full-Stack Developer | Java • Python • Django • Angular • SpringBoot • AI • LLM Agents • Computer Vision • AWS
 
 Building AI-powered systems and full-stack applications — from LLM-based agents and RAG pipelines to computer vision for medical imaging.
 
