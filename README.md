@@ -13,19 +13,37 @@ Building AI-powered systems and full-stack applications — from LLM-based agent
 - 💼 Software Engineer at **MatheSis Labs**, ~2.5 years of professional experience across software engineering and analysis
 - 🤖 Building **LLM-based agents**, RAG-style retrieval systems, and applied AI tooling
 - 🩻 Experience with **computer vision** (YOLO, R-CNN) applied to medical imaging (DICOM/CBCT)
-- 🛠️ Full-stack development with **Python/Django** and **Angular/TypeScript**
+- 🛠️ Full-stack development with **Python/Django**, **Java/Spring Boot** and **Angular/TypeScript**
 - 🗄️ Working with Neo4j, PostgreSQL, Redis/Celery, Docker, and AWS
 - 📍 Based in Delhi NCR, India
 
 ---
 
+## 🏥 Featured Project: SwasthyaQueue
+
+A multi-tenant hospital queue and triage system, built to learn backend engineering properly.
+[View the repo →](https://github.com/RIZWAN1428/SwasthyaQueue)
+
+- **Priority queue** that mixes severity with waiting time ("aging"), so critical patients go first and nobody waits forever
+- **Pre-checkup router**: a patient can't join a department until the prerequisite tests (a blood test, for example) are completed
+- **Many hospitals, one app**: the hospital ID travels inside the signed JWT, so each hospital only ever sees its own data
+- **Concurrency**: optimistic locking, database unique constraints and `@Async` alerts. Each race condition was reproduced on purpose before fixing it. Also removed an N+1 query
+- **Redis** caches live priority scores, with a scheduled sync back to PostgreSQL
+- **JUnit 5 + Mockito** tests run on every push with GitHub Actions
+- **In progress:** OCR for uploaded reports (a Python FastAPI service called from Spring Boot), then RAG over those documents
+
+Built with Java 17, Spring Boot, PostgreSQL, Redis, Angular and FastAPI.
+
+---
+
 ## 🎯 Current Focus
 
+- Adding the AI side of **SwasthyaQueue**: OCR for patient documents (printed text works, handwriting is next), then RAG over them
 - Exploring **vector databases** (pgvector, Pinecone, FAISS) for retrieval systems
 - Learning **agent frameworks** (LangChain, LlamaIndex) for building more capable AI agents
 - Getting hands-on with **fine-tuning** (LoRA/PEFT) via Kaggle & Jupyter Notebooks
 - Studying **LLM evaluation** methods (RAGAS) and model serving
-- Sharpening **DSA** fundamentals (NeetCode 150)
+- Getting better at **concurrency and testing** in Java, and sharpening **DSA** fundamentals (NeetCode 150)
 
 ---
 
@@ -42,7 +60,7 @@ Building AI-powered systems and full-stack applications — from LLM-based agent
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Neo4j](https://img.shields.io/badge/Neo4j-4581C3?style=for-the-badge&logo=neo4j&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Redis](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 
 ### Frontend
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
@@ -54,6 +72,10 @@ Building AI-powered systems and full-stack applications — from LLM-based agent
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=FF9900)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+
+### Testing
+![JUnit5](https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white)
 
 ### AI / ML
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
